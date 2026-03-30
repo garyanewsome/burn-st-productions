@@ -42,9 +42,9 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🚀 Quick start (Netlify)
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+Deploy this website with one click on [Netlify](https://app.netlify.com/signup):
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/garyanewsome/burn-st-productions)
 
 ## 🧐 What's inside?
 
