@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Fringe",
+    "artist": "Gary A. Newsome",
+    "year": "2023",
+    "image": "fringe_album.jpg",
+    "role": [
+      "Original Work",
+      "Writing",
+      "Tracking",
+      "Mixing",
+      "Mastering"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/38zU7XpRVT9qklOzBolqTi?si=0LFhTaHQRMmrVYdhjGvVNw",
+      "apple": "",
+      "ymusic": "",
+      "youtube": "",
+      "soundcloud": ""
+    }
+  },
+  {
+    "id": 2,
+    "title": "The After Times",
+    "artist": "Gary A. Newsome",
+    "year": "2022",
+    "image": "the_after_times_album.jpg",
+    "role": [
+      "Original Work",
+      "Writing",
+      "Tracking",
+      "Mixing",
+      "Mastering"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/59eNR8KpLGoiLWlI03EjJ7?si=yEFDzX_VSbOaQPJM3Iz1GA",
+      "apple": "",
+      "ymusic": "",
+      "youtube": "",
+      "soundcloud": ""
+    }
+  },
+  {
+    "id": 3,
+    "title": "2860",
+    "artist": "Gary A. Newsome",
+    "year": "2021",
+    "image": "2860_album.jpg",
+    "role": [
+      "Original Work",
+      "Writing",
+      "Tracking",
+      "Mixing",
+      "Mastering"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/6goGeBJl1ztz6c9NZ6vJiZ?si=2tXycNklR_OHgnaAyLKtNQ",
+      "apple": "",
+      "ymusic": "",
+      "youtube": "",
+      "soundcloud": ""
+    }
+  },
+  {
+    "id": 4,
+    "title": "Made for TV Movies",
+    "artist": "Gary A. Newsome",
+    "year": "2020",
+    "image": "made_for_tv_movies_album.jpg",
+    "role": [
+      "Original Work",
+      "Writing",
+      "Tracking",
+      "Mixing",
+      "Mastering"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/4o9ggeAJcWINaUCZmKO6np?si=jnrDkk30TuiVYU_9hwq9KQ",
+      "apple": "",
+      "ymusic": "",
+      "youtube": "",
+      "soundcloud": ""
+    }
+  },
+  {
+    "id": 5,
+    "title": "Home",
+    "artist": "Dave Hewlett",
+    "year": "2025",
+    "image": "home_album.jpg",
+    "role": [
+      "Custom Backing Tracks & Session Playing",
+      "Mixing & Mastering"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/3GN7fcZI5bJVaJe5wY5x0h?si=c5dc6e57084b490d",
+      "apple": "",
+      "ymusic": "",
+      "youtube": "",
+      "soundcloud": ""
+    }
+  },
+  {
+    "id": 6,
+    "title": "BSP Live 1",
+    "artist": "Burn St Presents",
+    "year": "2026",
+    "coming_soon": true,
+    "image": "bsp_live_1.jpg",
+    "role": [
+      "Live Studio Recording",
+      "Mixing",
+      "Mastering"
+    ],
+    "links": {
+      "spotify": "",
+      "apple": "",
+      "ymusic": "",
+      "youtube": "",
+      "soundcloud": ""
+    }
+  },
+  {
+    "id": 7,
+    "title": "One Weekend in November",
+    "artist": "Eggshell Aqua Velvet",
+    "year": "2026",
+    "coming_soon": true,
+    "image": "eggshell_aqua_velvet_album.jpg",
+    "role": [
+      "Original Work",
+      "Writing",
+      "Tracking",
+      "Mixing",
+      "Mastering"
+    ],
+    "links": {
+      "spotify": "",
+      "apple": "",
+      "ymusic": "",
+      "youtube": "",
+      "soundcloud": ""
+    }
+  }
+]

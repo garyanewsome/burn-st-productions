@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    gatsby new burn-st-productions https://github.com/gatsbyjs/gatsby-starter-default
     ```
 
 1.  **Start developing.**
@@ -28,7 +28,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd burn-st-productions/
     gatsby develop
     ```
 
@@ -38,7 +38,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/getting-started/part-4/#use-graphiql-to-explore-the-data-layer-and-write-graphql-queries).
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `burn-st-productions` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🚀 Quick start (Netlify)
 

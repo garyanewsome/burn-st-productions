@@ -1,0 +1,28 @@
+{
+  "teamMembers": [
+    {
+      "name": "Troy",
+      "role": "Purveyor of Basements",
+      "bio": "Architecting the core sound of the collective. Specializes in heavy analog synthesis and rhythmic structure.",
+      "image": "team_troy.jpg"
+    },
+    {
+      "name": "Gary",
+      "role": "Resident Nerd",
+      "bio": "Bringing clarity to chaos. Focusing on high-fidelity, hybrid mixing using both vintage and modern gear."
+    },
+    {
+      "name": "Matt",
+      "role": "Drum Whisperer",
+      "bio": "Crafting bespoke audio textures, cinematic soundscapes, and driving the experimental edge of our productions."
+    }
+  ],
+  "servicesList": [
+    "Full-Service Production",
+    "Custom Backing Tracks & Session Playing",
+    "Mixing & Mastering",
+    "Collaborative Songwriting",
+    "Beat Production & Arrangement",
+    "Cinematic Scoring & Sync"
+  ]
+}

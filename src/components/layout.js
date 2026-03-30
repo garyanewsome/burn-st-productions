@@ -1,10 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
- */
-
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -28,20 +21,26 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
+          // Removed constraints to allow full bleed sections (like Hero)
+          paddingTop: `0`, // Managed per page or via main padding
+          minHeight: `100vh`,
+          display: `flex`,
+          flexDirection: `column`,
         }}
       >
-        <main>{children}</main>
+        <main style={{ flexGrow: 1 }}>{children}</main>
         <footer
           style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
+            marginTop: `auto`,
+            padding: `3rem 5%`,
+            textAlign: `center`,
+            color: `var(--color-text-muted)`,
+            fontSize: `0.875rem`,
+            borderTop: `1px solid rgba(255,255,255,0.05)`,
+            background: `var(--color-background)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          © {new Date().getFullYear()} &middot; Music Production Company. All rights reserved.
         </footer>
       </div>
     </>
