@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 import heroBg from "../images/hero_group_optimized.jpg"
 import Releases from "../data/projects.json"
 
-const recentReleases = [...Releases].sort((a,b) => Number(b.year) - Number(a.year)).slice(0, 3);
+const recentReleases = [...Releases].sort((a, b) => Number(b.year) - Number(a.year)).slice(0, 3);
 
 const IndexPage = () => (
   <Layout>
@@ -19,7 +19,7 @@ const IndexPage = () => (
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundImage: `linear-gradient(to bottom, rgba(2, 6, 23, 0.4), var(--color-background)), url(${heroBg})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(2, 6, 23, 0.3), var(--color-background)), url(${heroBg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
