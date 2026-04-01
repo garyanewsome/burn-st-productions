@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import heroBg from "../images/hero_bg.png"
+import heroBg from "../images/hero_group_optimized.jpg"
 import Releases from "../data/projects.json"
 
 const recentReleases = [...Releases].sort((a,b) => Number(b.year) - Number(a.year)).slice(0, 3);
