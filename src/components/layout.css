@@ -8,11 +8,11 @@
   /* Very dark slate */
   --color-surface: rgba(30, 41, 59, 0.4);
   /* Glass surface */
-  --color-primary: #8b5cf6;
-  /* Vibrant purple */
-  --color-primary-hover: #a78bfa;
+  --color-primary: #e2e8f0;
+  /* Soft Ice White */
+  --color-primary-hover: #ffffff;
   --color-accent: #0ea5e9;
-  /* Sky blue */
+  /* Cinematic Sky Blue */
   --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --line-height-loose: 1.75;
   --line-height-normal: 1.6;
@@ -107,15 +107,15 @@ img {
 /* Buttons */
 .btn-primary {
   display: inline-block;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
-  color: #fff;
+  background: linear-gradient(135deg, #0ea5e9, #ffffff, #0ea5e9);
+  color: #020617;
   padding: 1rem 2.5rem;
   border-radius: 50px;
   font-weight: 600;
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 10px 30px rgba(14, 165, 233, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
   border: none;
@@ -123,13 +123,13 @@ img {
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 15px 40px rgba(139, 92, 246, 0.5);
-  color: #fff;
+  box-shadow: 0 15px 40px rgba(14, 165, 233, 0.5);
+  color: #000000;
 }
 
 /* Gradients and Text fx */
 .text-gradient {
-  background: linear-gradient(135deg, #a855f7, #06b6d4);
+  background: linear-gradient(180deg, #ffffff 40%, #0ea5e9 49.5%, #ffffff 50.5%, #f1f5f9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

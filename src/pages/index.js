@@ -19,7 +19,7 @@ const IndexPage = () => (
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundImage: `linear-gradient(to bottom, rgba(2, 6, 23, 0.3), var(--color-background)), url(${heroBg})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(2, 6, 23, 0.66), var(--color-background)), url(${heroBg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
@@ -29,11 +29,11 @@ const IndexPage = () => (
       }}
     >
       <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 5rem)', marginBottom: '1.5rem', textShadow: '0 4px 20px rgba(0,0,0,0.8)' }}>
-        Sonic Excellence. <br />
-        <span className="text-gradient">Redefined.</span>
+        Capturing Your Sound. <br />
+        <span className="text-gradient">Perfectly.</span>
       </h1>
       <p style={{ fontSize: 'clamp(1rem, 2vw, 1.25rem)', color: 'var(--color-text-muted)', marginBottom: '3rem', maxWidth: '700px', lineHeight: 1.6 }}>
-        We are a premier music production group crafting chart-topping hits, bespoke soundscapes, and immersive audio experiences for artists worldwide.
+        Uncompromising quality, elite production, and a studio environment designed entirely around capturing your best performance.
       </p>
       <a href="#projects" className="btn-primary">
         Explore Our Sound
