@@ -75,11 +75,11 @@ const AboutPage = () => (
         color: 'var(--color-text-muted)'
       }}>
         <p style={{ marginBottom: '2rem' }}>
-          <strong style={{ color: '#fff' }}>Sonic Excellence</strong> is not just a tagline; it's the ethos that drives our multi-platinum production collective. Founded in 2018 in the heart of the creative district, our group brings together award-winning producers, mixing engineers, and sound designers.
+          <strong style={{ color: '#fff' }}>Capturing your sound perfectly</strong> isn't just our tagline; it's the ethos that drives our production collective. We are a trio of dedicated multi-instrumentalists, mix engineers, and sonic architects who obsess over the details of every track we touch.
         </p>
 
         <p style={{ marginBottom: '2rem' }}>
-          We specialize in crafting bespoke audio experiences across genres. Our studio is built around state-of-the-art digital processing, giving us limitless possibilities, pristine clarity, and absolute precision over your final sound.
+          By seamlessly blending the relentless warmth of heavy vintage analog gear with the razor-sharp precision of modern digital processing, we craft audio experiences that hit with undeniable impact. From the initial composition to the final master, our studio is built to bring your uncompromised vision to life.
         </p>
 
         <h3 style={{ color: '#fff', fontSize: '1.8rem', marginTop: '3rem', marginBottom: '1.5rem' }}>Our Services</h3>
