@@ -28,7 +28,7 @@ const IndexPage = () => (
         marginTop: '-80px', // Compensate for header to be fully full bleed
       }}
     >
-      <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 5rem)', marginBottom: '1.5rem', textShadow: '0 4px 20px rgba(0,0,0,0.8)' }}>
+      <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 5rem)', marginBottom: '1.5rem', textShadow: '0px 4px 20px rgba(100, 100, 200, 0.8)' }}>
         Capturing Your Sound. <br />
         <span className="text-gradient">Perfectly.</span>
       </h1>
@@ -60,33 +60,10 @@ const IndexPage = () => (
         A spotlight on our most recent collaborations and projects.
       </p>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-        gap: '2rem',
-        width: '100%'
-      }}
-      >
+      <div className="projects-grid">
         {/* Dynamic Recent Projects */}
         {recentReleases.map((release) => (
-          <div key={release.id} style={{
-            background: 'var(--color-surface)',
-            borderRadius: 'var(--border-radius)',
-            padding: '2rem',
-            border: '1px solid rgba(255,255,255,0.05)',
-            boxShadow: '0 10px 30px rgba(0,0,0,0.2)',
-            transition: 'all 0.3s ease',
-            textAlign: 'left'
-          }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = 'translateY(-10px)';
-              e.currentTarget.style.borderColor = 'rgba(139, 92, 246, 0.5)';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = 'translateY(0)';
-              e.currentTarget.style.borderColor = 'rgba(255,255,255,0.05)';
-            }}
-          >
+          <div key={release.id} className="project-card">
             <div style={{
               position: 'relative',
               aspectRatio: '1 / 1',

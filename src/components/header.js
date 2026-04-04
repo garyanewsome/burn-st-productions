@@ -40,9 +40,8 @@ const Header = ({ siteTitle }) => {
           onClick={closeMenu}
         >
           {siteTitle}
-          <span style={{ color: `var(--color-primary)` }}>.</span>
         </Link>
-        
+
         {/* Desktop Nav */}
         <nav className="nav-menu-desktop">
           <Link to="/projects" className="nav-link">Projects</Link>
@@ -51,8 +50,8 @@ const Header = ({ siteTitle }) => {
         </nav>
 
         {/* Mobile Hamburger Button */}
-        <button 
-          className="hamburger-btn" 
+        <button
+          className="hamburger-btn"
           onClick={toggleMenu}
           aria-label="Toggle menu"
           style={{ zIndex: 101 }} // sit above overlay

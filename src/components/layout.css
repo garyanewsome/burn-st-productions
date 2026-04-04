@@ -129,10 +129,7 @@ img {
 
 /* Gradients and Text fx */
 .text-gradient {
-  background: linear-gradient(180deg, #ffffff 40%, #0ea5e9 49.5%, #ffffff 50.5%, #f1f5f9 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: lightskyblue;
 }
 
 /* Team Grid Component */
@@ -143,8 +140,32 @@ img {
   margin-bottom: 4rem;
 }
 
+/* Project Card Component */
+.project-card {
+  background: var(--color-surface);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(14, 165, 233, 0.5);
+}
+
+/* Projects Grid Component */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+
 @media (max-width: 900px) {
-  .team-grid {
+  .team-grid, .projects-grid {
     grid-template-columns: 1fr;
   }
 }

@@ -2,19 +2,20 @@
   "teamMembers": [
     {
       "name": "Troy",
-      "role": "Purveyor of Basements",
-      "bio": "Architecting the core sound of the collective. Specializes in heavy analog synthesis and rhythmic structure.",
+      "role": "Neon Sorcerer & Chief of Polish",
+      "bio": "The final polish on the Burn St. sound. A composer, producer, and multi-instrumentalist (guitar, bass, keys), Troy leads the collective's mixing and mastering to ensure every track hits with maximum impact.",
       "image": "team_troy.jpg"
     },
     {
       "name": "Gary",
-      "role": "Resident Nerd",
-      "bio": "Bringing clarity to chaos. Focusing on high-fidelity, hybrid mixing using both vintage and modern gear."
+      "role": "Sonic Alchemist & Resident Nerd",
+      "bio": "Specializes in guitar, bass, keys, synths, programming, and sampling. Blending warm vintage tones with sharp modern aesthetics across composing, writing, arranging, and mixing.",
+      "image": "team_gary.jpg"
     },
     {
       "name": "Matt",
-      "role": "Drum Whisperer",
-      "bio": "Crafting bespoke audio textures, cinematic soundscapes, and driving the experimental edge of our productions."
+      "role": "Rhythm Sage & The Quiet Pulse",
+      "bio": "The thoughtful, quiet voice in the room. Specializing in drums, percussion, and bass, Matt's considered approach to production anchors every track with a deeply purposeful groove."
     }
   ],
   "servicesList": [
